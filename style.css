@@ -107,21 +107,31 @@ img{
     }
     .left-bttn{
         font-size: 1rem !important;
+        display: none !important;
     }
     .right-bttn{
         font-size: 1rem !important;
     }
+
+    .container-fluid{
+        height: 40vh;
+    }
     .search-p{
         font-size: 2.5rem;
-        font-weight: 400;
+        font-weight: 450;
         letter-spacing: -0.10rem;
-        word-spacing: 0.25rem;
+        word-spacing: 0.15rem;
     }
     input{
-        width: 90%;
+        width: 100%;
     }
     .help{
+        margin: 6rem;
         grid-template-rows: 1fr;
         grid-template-columns: 1fr;
+    }
+    img {
+        height: 4.5rem;
+        margin: 0 1rem 0 0;
     }
 }
